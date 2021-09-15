@@ -12,6 +12,7 @@
     padding        : 0;
     box-sizing     : border-box;
     text-decoration: none;
+    text-decoration-style: none;
     list-style     : none;
 }
 
@@ -37,6 +38,7 @@ header .logo {
     font-family: 'Arial Black', Arial, Helvetica, sans-serif;
     font-size  : 40px;
     margin-left: 5px;
+    cursor: pointer;
 }
 
 header nav a {
