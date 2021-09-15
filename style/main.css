@@ -1,0 +1,112 @@
+/* variaveis */
+:root {
+    --primary-color:#E50914;
+    --secondary-color:#141414;
+    --menu-color: #aaa;
+    --menu-hover: #fff;
+}
+
+/* Reset CSS */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: var(--secondary-color);
+    font-family: 'Times New Roman', Times, serif;
+    color: white;
+}
+
+.container {
+    margin-left: 20px;
+}
+
+header .container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+header .logo {
+    color: var(--primary-color);
+    font-family: 'Arial Black', Arial, Helvetica, sans-serif;
+    font-size: 40px;
+    margin-left: 5px;
+}
+
+header nav a {
+    text-decoration: none;
+    color: var(--menu-color);
+    margin-right: 10px;
+}
+
+header nav a:hover {
+    color: var(--menu-hover);
+}
+
+/* filme ou série principal */
+.filme-principal {
+    font-size: 16px;
+    background: linear-gradient(rgba(0,0,0,.80),rgba(0,0,0,.32)80%), url('/img/mr-robot-lg.jpg');
+    background-size: auto;
+    height: auto;
+    background-size: cover;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    align-items: flex-start;
+}
+
+.filme-principal .container {
+    width: 70%;
+}
+
+.filme-principal .descricao {
+    margin-top: 12px;
+    margin-bottom: 40px;
+    text-align: justify;
+}
+
+.filme-principal .titulo {
+    margin-top: 16%;
+    font-size: 32px;
+    font-family: 'Trebuchet MS', Arial, sans-serif;
+}
+
+.button {
+    background-color: rgba(0,0,0,.56);
+    border: none;
+    color: white;
+
+    padding: 16px 32px;
+    margin-right: 16px;
+    margin-bottom: 8px;
+    font-size: 12px;
+
+    cursor: pointer;
+    transition: .3s ease all;
+
+}
+
+.button:hover {
+    background-color: white;
+    color: var(--secondary-color);
+}
+
+.button i {
+    margin-right: 8px;
+}
+
+.box-filme {
+    height: 100%;
+    width: 100%;
+    display: block;
+}
+
+.carrosel-filmes {
+    margin-top: 8px;
+}
