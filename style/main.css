@@ -11,6 +11,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    text-decoration: none;
 }
 
 body {
@@ -109,4 +110,18 @@ header nav a:hover {
 
 .carrosel-filmes {
     margin-top: 8px;
+}
+
+footer {
+    display: flex;
+    font-size: 0.9em;
+}
+
+footer a {
+    font-style: italic;
+    color: var(--menu-hover);
+}
+
+iframe {
+    width: 100%;
 }
